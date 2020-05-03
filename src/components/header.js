@@ -6,7 +6,7 @@ import { Button } from "@blueprintjs/core";
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `pink`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -28,7 +28,6 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <Button>TEST</Button>
     </div>
   </header>
 )
